@@ -26,4 +26,22 @@ body {
     background-color: var(--backveneno);
 }
 
+.types {
+    text-align: center;
+    margin: 10px 0 30px;
+    color: var(--white);
+    background-color: var(--veneno);
+    padding: 20px;
+}
+
+#pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+
 
