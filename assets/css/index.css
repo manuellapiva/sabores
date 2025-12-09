@@ -116,3 +116,13 @@ body {
     text-align: center;
     font-size: 25px;
 }
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards img{
+    width: 200px;
+    border-radius: 10px;
+} 
