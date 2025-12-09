@@ -26,3 +26,20 @@
 body {
     background-color: var(--backgrama);
 }
+.types {
+    text-align: center;
+    margin: 10px 0 30px;
+    color: var(--white);
+    background-color: var(--grama);
+    padding: 20px;
+}
+
+/* cards pro js */
+
+#pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
