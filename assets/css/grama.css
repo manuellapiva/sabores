@@ -43,3 +43,27 @@ body {
   justify-content: center;
   margin-bottom: 40px;
 }
+.card {
+  width: 260px;
+  background: var(--cardgrama);
+  padding: 20px;
+  border-radius: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+.poster {
+  width: 150px;
+}
+
+.tipos {
+  margin: 8px 0;
+}
+
+.tag {
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: var(--white);
+  font-size: 12px;
+  margin: 0 4px;
+}
