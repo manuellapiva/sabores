@@ -1,4 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap&#39");
+
+:root {
+    --white: #fff;
+    --body: #fff7da;
+    --searchclr: #A9CAF0;
+    --yellowhdr: #ffd63c;
+    --black: #000000;
+    --white: #ffffff;
+    --blueline: #3c5aa6;
+    --gelo: #849ebc;
+    --grama: #55936c;
+    --lutador: #5e646a;
+    --veneno: #836e9b;
+    --homehover: #ddb834;
+    --gelohover: #6a7e96;
+    --gramahover: #467958;
+    --lutadorhover: #4b5055;
+    --venenohover: #68577a;
+    --cardgrama: #a9f0e2;
+    --backgrama: #3ca663;
+    --backlutador: #2f374d;
+    --cardlutador: #777f87;
+    --backveneno: #3f377d;
+    --cardveneno: #966fc5;
+}
+
 * {
   padding: 0%;
   margin: 0%;
@@ -10,12 +36,12 @@ header {
   align-items: center;
   display: flex;
   flex-direction: row;
-  background-color: #ffd63c;
+  background-color: var(--yellowhdr);
   gap: 100px;
 }
 
 .searchbar {
-  background-color: #a9caf0;
+  background-color: var(--searchclr);
   padding: 8px;
   gap: 100px;
   border-radius: 50px;
@@ -25,7 +51,7 @@ header {
 
 header input {
   border: none;
-  background-color: #a9caf0;
+  background-color: var(--searchclr);
   width: 656px;
 }
 
@@ -46,6 +72,7 @@ header img {
 footer {
     padding: 60px;
     background-color: var(--yellowhdr);
+    font-size: 20px;
 }
 
 footer ul {
@@ -55,8 +82,6 @@ footer ul {
     margin: 0;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 30px;
 }
 
 footer li {
@@ -74,11 +99,13 @@ footer a:hover {
 footer a {
     color: var(--black);
     text-decoration: none;
+    font-size: 18px;
 }
 
 .cntct h1 {
     border-bottom: 4px solid var(--blueline);
     padding-bottom: 15px;
+    font-size: 35px;
 }
 
 .cont {
@@ -106,6 +133,7 @@ footer a {
 .sercli h2 {
     border-bottom: 4px solid var(--blueline);
     padding-bottom: 15px;
+    font-size: 25px;
 }
 
 .foot {
@@ -124,4 +152,63 @@ footer a {
     margin-top: 20px;
     padding-top: 15px;
     font-size: 10px;
+}
+
+.buttons li.gelo a {
+    background-color: var(--gelo);
+}
+.buttons li.gelo a:hover {
+    background-color: var(--gelohover);
+}
+.buttons li.grama a {
+    background-color: var(--grama);
+}
+.buttons li.grama a:hover {
+    background-color: var(--gramahover);
+}
+.buttons li.home a:hover {
+    background-color: var(--homehover);
+}
+.buttons li.lutador a {
+    background-color: var(--lutador);
+}
+.buttons li.lutador a:hover {
+    background-color: var(--lutadorhover);
+}
+.buttons li.veneno a {
+    background-color: var(--veneno);
+}
+.buttons li.veneno a:hover {
+    background-color: var(--venenohover);
+}
+
+.buttons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.buttons ul {
+  gap: 25px;
+  list-style: none;
+  background-color: var(--blueline);
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Estilo dos botões */
+.buttons li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--white);
+  background-color: var(--yellowhdr); 
+  padding: 22px 45px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
 }

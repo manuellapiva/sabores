@@ -101,30 +101,6 @@ header input {
 .ground{background-color: #543b0e;}
 .flying{background-color: #e2dee8; color: var(--black);}
 
-/* botões */
-ul {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  list-style: none;
-  background-color: var(--backgrama);
-  padding: 20px 0;
-  margin: 0;
-}
-
-/* Estilo dos botões */
-ul li a {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  color: var(--black);
-  background-color: var(--yellowhdr); 
-  padding: 12px 35px;
-  border-radius: 30px;
-  display: inline-block;
- 
-}
-/* titulo de cada*/ 
 .title {
     text-align: center;
     margin: 10px 0 30px;

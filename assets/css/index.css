@@ -24,11 +24,20 @@
     --cardveneno: #966fc5;
 } 
 
+body {
+    background-color: var(--body);
+}
+
 .firstimgs {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.firstimgs img {
+    width: 507px;
 }
 
 .h1img {
@@ -39,45 +48,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    width: 50%;
+    font-size: 50px;
     padding: 10px;
 }
 
-
-body {
-    background-color: var(--body);
-}
-
 #texto {
+    margin: 0 100px 40px 100px;
     text-align: center;
     font-size: 25px;
     border-bottom: 5px solid var(--yellowhdr) ;
     padding-bottom: 25px;
 }
 
-.botoes {
-    display: flex;
-    border-bottom: 5px solid var(--yellowhdr);
-    padding-bottom: 25px;
-}
 .pages {
     border-bottom: 4px solid var(--yellowhdr);
     padding-bottom: 40px;
+    padding-bottom: 40px;
     text-align: center;
-    font-size:25px;
+    font-size: 25px;
+    margin: 0 100px 40px 100px;
 }
 
+.pages h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
 .pages ul {
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
 .pages li {
     padding: 10px;
     width: 280px;
     height: 90px;
-    border-radius: 10px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,6 +106,13 @@ body {
     background-color: var(--veneno);
 }
 
+#texto1 {
+    margin: 0 100px 40px 100px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
 .pages a {
     color: var(--white);
     font-weight: bold;
@@ -107,27 +121,35 @@ body {
 }
 
 .bt12, .bt34 {
+    margin-top: 30px;
     display: flex;
     justify-self: space-around;
-    gap: 150px;
+    gap: 30px;
 }
 
 .equipe{
     text-align: center;
     font-size: 25px;
+    padding-top: 30px;
+}
+
+.equipe h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .cards{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .cards img{
-    width: 200px;
-    border-radius: 10px;
+    width: 170px;
+    border-radius: 25px;
 } 
-header input {
-  border: none;
-  background-color: #a9caf0;
-  width: 656px;
+
+.card {
+    text-align: center;
 }
