@@ -22,6 +22,38 @@
     --backveneno: #3f377d;
     --cardveneno: #966fc5;
 }
+
+/* botões */
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  background-color: var(--backveneno);
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Estilo dos botões */
+ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--black);
+  background-color: var(--yellowhdr); 
+  padding: 12px 35px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0 30px;
+    color: var(--white);
+    background-color: var(--veneno);
+    padding: 20px;
+}
+
 body {
     background-color: var(--backveneno);
 }
@@ -68,7 +100,7 @@ body {
 }
 
 .habilities {
-    border-top: 3px solid var(--blueline);
+    border-top: 3px solid var(--backveneno);
     margin: 10px 0;
     padding: 10px 0;
 }
