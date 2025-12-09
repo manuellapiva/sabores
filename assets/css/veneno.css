@@ -73,6 +73,20 @@ body {
     padding: 10px 0;
 }
 
+/* cores dos tipos */
+.grass { background: #4CAF50; }
+.poison { background: #9C27B0; }
+.fire { background: #F44336; }
+.water { background: #2196F3; }
+.ice { background: #03A9F4; }
+.fighting { background: #D32F2F; }
+.psychic {background-color:#670e94;}
+.bug{background-color: #b8f870;}
+.dark{background-color: #181e31;}
+.ground{background-color: #543b0e;}
+.flying{background-color: #e2dee8; color: var(--black);}
+
+
 
 
 
