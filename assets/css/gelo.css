@@ -23,6 +23,18 @@
     --cardveneno: #966fc5;
 }
 
+header input {
+  border: none;
+  background-color: #a9caf0;
+  width: 656px;
+}
+.searchbar {
+  background-color: #a9caf0;
+  padding: 8px;
+  gap: 100px;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px;
 body {
     background-color: var(--blueline);
 }
@@ -118,4 +130,3 @@ ul li a {
     color: var(--white);
     background-color: var(--gelo);
     padding: 20px;
-}

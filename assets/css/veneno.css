@@ -1,0 +1,20 @@
+header input {
+  border: none;
+  background-color: #976ECA;
+  width: 656px;
+}
+
+.searchbar {
+  background-color: #976ECA;
+  padding: 8px;
+  gap: 100px;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px;
+  color: white;
+}
+
+
+input::placeholder{
+    color:white
+}
