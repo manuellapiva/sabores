@@ -109,3 +109,11 @@ ul li a {
   display: inline-block;
  
 }
+/* titulo de cada*/ 
+.title {
+    text-align: center;
+    margin: 10px 0 30px;
+    color: var(--white);
+    background-color: var(--grama);
+    padding: 20px;
+}
