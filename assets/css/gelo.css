@@ -1,29 +1,27 @@
-
 :root {
-    --white: #fff;
-    --body: #fff7da;
-    --searchclr: #A9CAF0;
-    --yellowhdr: #ffd63c;
-    --black: #000000;
-    --white: #ffffff;
-    --blueline: #3c5aa6;
-    --gelo: #849ebc;
-    --grama: #55936c;
-    --lutador: #5e646a;
-    --veneno: #836e9b;
-    --homehover: #ddb834;
-    --gelohover: #6a7e96;
-    --gramahover: #467958;
-    --lutadorhover: #4b5055;
-    --venenohover: #68577a;
-    --cardgrama: #a9f0e2;
-    --backgrama: #3ca663;
-    --backlutador: #2f374d;
-    --cardlutador: #777f87;
-    --backveneno: #3f377d;
-    --cardveneno: #966fc5;
+  --white: #fff;
+  --body: #fff7da;
+  --searchclr: #a9caf0;
+  --yellowhdr: #ffd63c;
+  --black: #000000;
+  --white: #ffffff;
+  --blueline: #3c5aa6;
+  --gelo: #849ebc;
+  --grama: #55936c;
+  --lutador: #5e646a;
+  --veneno: #836e9b;
+  --homehover: #ddb834;
+  --gelohover: #6a7e96;
+  --gramahover: #467958;
+  --lutadorhover: #4b5055;
+  --venenohover: #68577a;
+  --cardgrama: #a9f0e2;
+  --backgrama: #3ca663;
+  --backlutador: #2f374d;
+  --cardlutador: #777f87;
+  --backveneno: #3f377d;
+  --cardveneno: #966fc5;
 }
-
 
 header input {
   border: none;
@@ -41,15 +39,15 @@ header input {
 }
 
 body {
-    background-color: var(--blueline);
+  background-color: var(--blueline);
 }
 
 .types {
-    text-align: center;
-    margin: 10px 0 30px;
-    color: var(--white);
-    background-color: var(--gelo);
-    padding: 20px;
+  text-align: center;
+  margin: 10px 0 30px;
+  color: var(--white);
+  background-color: var(--gelo);
+  padding: 20px;
 }
 
 /* cards pro js */
@@ -69,6 +67,12 @@ body {
   border-radius: 18px;
   text-align: center;
   margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .poster {
@@ -88,30 +92,53 @@ body {
 }
 
 .habilities {
-    border-top: 3px solid var(--blueline);
-    margin: 10px 0;
-    padding: 10px 0;
+  border-top: 3px solid var(--blueline);
+  margin: 10px 0;
+  padding: 10px 0;
 }
 
 /* cores dos tipos */
-.grass { background: #4CAF50; }
-.poison { background: #9C27B0; }
-.fire { background: #F44336; }
-.water { background: #2196F3; }
-.ice { background: #03A9F4; }
-.fighting { background: #D32F2F; }
-.psychic {background-color:#670e94;}
-.bug{background-color: #b8f870;}
-.dark{background-color: #181e31;}
-.ground{background-color: #543b0e;}
-.flying{background-color: #e2dee8; color: var(--black);}
+.grass {
+  background: #4caf50;
+}
+.poison {
+  background: #9c27b0;
+}
+.fire {
+  background: #f44336;
+}
+.water {
+  background: #2196f3;
+}
+.ice {
+  background: #03a9f4;
+}
+.fighting {
+  background: #d32f2f;
+}
+.psychic {
+  background-color: #670e94;
+}
+.bug {
+  background-color: #b8f870;
+}
+.dark {
+  background-color: #181e31;
+}
+.ground {
+  background-color: #543b0e;
+}
+.flying {
+  background-color: #e2dee8;
+  color: var(--black);
+}
 
 /* botões */
 
 .title {
-    text-align: center;
-    margin: 10px 0 30px;
-    color: var(--white);
-    background-color: var(--gelo);
-    padding: 20px;
+  text-align: center;
+  margin: 10px 0 30px;
+  color: var(--white);
+  background-color: var(--gelo);
+  padding: 20px;
 }

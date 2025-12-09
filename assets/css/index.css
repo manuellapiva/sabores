@@ -1,155 +1,168 @@
 :root {
-    --white: #fff;
-    --body: #fff7da;
-    --searchclr: #A9CAF0;
-    --yellowhdr: #ffd63c;
-    --black: #000000;
-    --white: #ffffff;
-    --redimg: rgba(178, 54, 47, 0.85);
-    --blueline: #3c5aa6;
-    --gelo: #849ebc;
-    --grama: #55936c;
-    --lutador: #5e646a;
-    --veneno: #836e9b;
-    --homehover: #ddb834;
-    --gelohover: #6a7e96;
-    --gramahover: #467958;
-    --lutadorhover: #4b5055;
-    --venenohover: #68577a;
-    --cardgrama: #a9f0e2;
-    --backgrama: #3ca663;
-    --backlutador: #2f374d;
-    --cardlutador: #777f87;
-    --backveneno: #3f377d;
-    --cardveneno: #966fc5;
-} 
+  --white: #fff;
+  --body: #fff7da;
+  --searchclr: #a9caf0;
+  --yellowhdr: #ffd63c;
+  --black: #000000;
+  --white: #ffffff;
+  --redimg: rgba(178, 54, 47, 0.85);
+  --blueline: #3c5aa6;
+  --gelo: #849ebc;
+  --grama: #55936c;
+  --lutador: #5e646a;
+  --veneno: #836e9b;
+  --homehover: #ddb834;
+  --gelohover: #6a7e96;
+  --gramahover: #467958;
+  --lutadorhover: #4b5055;
+  --venenohover: #68577a;
+  --cardgrama: #a9f0e2;
+  --backgrama: #3ca663;
+  --backlutador: #2f374d;
+  --cardlutador: #777f87;
+  --backveneno: #3f377d;
+  --cardveneno: #966fc5;
+}
 
 body {
-    background-color: var(--body);
+  background-color: var(--body);
 }
 
 .firstimgs {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .firstimgs img {
-    width: 507px;
+  width: 507px;
 }
 
 .h1img {
-    position: absolute;
-    color: var(--white);
-    background-color: var(--redimg);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    padding: 10px;
+  position: absolute;
+  color: var(--white);
+  background-color: var(--redimg);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  padding: 10px;
 }
 
 #texto {
-    margin: 0 100px 40px 100px;
-    text-align: center;
-    font-size: 25px;
-    border-bottom: 5px solid var(--yellowhdr) ;
-    padding-bottom: 25px;
+  margin: 0 100px 40px 100px;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 5px solid var(--yellowhdr);
+  padding-bottom: 25px;
 }
 
 .pages {
-    border-bottom: 4px solid var(--yellowhdr);
-    padding-bottom: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: 25px;
-    margin: 0 100px 40px 100px;
+  border-bottom: 4px solid var(--yellowhdr);
+  padding-bottom: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 100px 40px 100px;
 }
 
 .pages h2 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 .pages ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .pages li {
-    padding: 10px;
-    width: 280px;
-    height: 90px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 10px;
+  width: 280px;
+  height: 90px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pages li:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .pages li#gelo {
-    background-color: var(--gelo);
+  background-color: var(--gelo);
 }
 
 .pages li#grama {
-    background-color: var(--grama);
+  background-color: var(--grama);
 }
 
 .pages li#lutador {
-    background-color: var(--lutador);
+  background-color: var(--lutador);
 }
 
 .pages li#veneno {
-    background-color: var(--veneno);
+  background-color: var(--veneno);
 }
 
 #texto1 {
-    margin: 0 100px 40px 100px;
-    text-align: center;
-    font-size: 25px;
-    padding-bottom: 25px;
+  margin: 0 100px 40px 100px;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 25px;
 }
 
 .pages a {
-    color: var(--white);
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 30px;
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
 }
 
-.bt12, .bt34 {
-    margin-top: 30px;
-    display: flex;
-    justify-self: space-around;
-    gap: 30px;
+.bt12,
+.bt34 {
+  margin-top: 30px;
+  display: flex;
+  justify-self: space-around;
+  gap: 30px;
 }
 
-.equipe{
-    text-align: center;
-    font-size: 25px;
-    padding-top: 30px;
+.equipe {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 30px;
 }
 
 .equipe h1 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.cards{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 50px;
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
-.cards img{
-    width: 170px;
-    border-radius: 25px;
-} 
+.cards img {
+  width: 170px;
+  border-radius: 25px;
+}
 
 .card {
-    text-align: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
