@@ -1,0 +1,28 @@
+:root {
+    --white: #fff;
+    --body: #fff7da;
+    --searchclr: #A9CAF0;
+    --yellowhdr: #ffd63c;
+    --black: #000000;
+    --white: #ffffff;
+    --blueline: #3c5aa6;
+    --gelo: #849ebc;
+    --grama: #55936c;
+    --lutador: #5e646a;
+    --veneno: #836e9b;
+    --homehover: #ddb834;
+    --gelohover: #6a7e96;
+    --gramahover: #467958;
+    --lutadorhover: #4b5055;
+    --venenohover: #68577a;
+    --cardgrama: #a9f0e2;
+    --backgrama: #3ca663;
+    --backlutador: #2f374d;
+    --cardlutador: #777f87;
+    --backveneno: #3f377d;
+    --cardveneno: #966fc5;
+}
+
+body {
+    background-color: var(--backgrama);
+}
