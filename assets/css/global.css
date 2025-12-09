@@ -42,3 +42,86 @@ header img {
 }
 
 /* header */
+
+footer {
+    padding: 60px;
+    background-color: var(--yellowhdr);
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer li {
+    margin-right: 15px;
+    padding: 5px;
+    width: 175px;
+    border-radius: 10px;
+}
+
+footer a:hover {
+    color: var(--blueline);
+    transition: color 0.4s;
+}
+
+footer a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.cntct h1 {
+    border-bottom: 4px solid var(--blueline);
+    padding-bottom: 15px;
+}
+
+.cont {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1,
+.cont2 {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.contact h6 {
+    font-size: 14px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.cats h2,
+.sercli h2 {
+    border-bottom: 4px solid var(--blueline);
+    padding-bottom: 15px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catser {
+    display: flex;
+    gap: 30px;
+}
+
+.cpry {
+    text-align: center;
+    border-top: 4px solid var(--blueline);
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 10px;
+}
