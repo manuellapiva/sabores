@@ -1,0 +1,121 @@
+:root {
+    --white: #fff;
+    --body: #fff7da;
+    --searchclr: #A9CAF0;
+    --yellowhdr: #ffd63c;
+    --black: #000000;
+    --white: #ffffff;
+    --blueline: #3c5aa6;
+    --gelo: #849ebc;
+    --grama: #55936c;
+    --lutador: #5e646a;
+    --veneno: #836e9b;
+    --homehover: #ddb834;
+    --gelohover: #6a7e96;
+    --gramahover: #467958;
+    --lutadorhover: #4b5055;
+    --venenohover: #68577a;
+    --cardgrama: #a9f0e2;
+    --backgrama: #3ca663;
+    --backlutador: #2f374d;
+    --cardlutador: #777f87;
+    --backveneno: #3f377d;
+    --cardveneno: #966fc5;
+}
+
+body {
+    background-color: var(--blueline);
+}
+
+.types {
+    text-align: center;
+    margin: 10px 0 30px;
+    color: var(--white);
+    background-color: var(--gelo);
+    padding: 20px;
+}
+
+/* cards pro js */
+
+#pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 260px;
+  background: var(--searchclr);
+  padding: 20px;
+  border-radius: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+.poster {
+  width: 150px;
+}
+
+.tipos {
+  margin: 8px 0;
+}
+
+.tag {
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: var(--white);
+  font-size: 12px;
+  margin: 0 4px;
+}
+
+.habilities {
+    border-top: 3px solid var(--blueline);
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+/* cores dos tipos */
+.grass { background: #4CAF50; }
+.poison { background: #9C27B0; }
+.fire { background: #F44336; }
+.water { background: #2196F3; }
+.ice { background: #03A9F4; }
+.fighting { background: #D32F2F; }
+.psychic {background-color:#670e94;}
+.bug{background-color: #b8f870;}
+.dark{background-color: #181e31;}
+.ground{background-color: #543b0e;}
+.flying{background-color: #e2dee8; color: var(--black);}
+
+/* botões */
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  background-color: var(--blueline);
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Estilo dos botões */
+ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--black);
+  background-color: var(--yellowhdr); 
+  padding: 12px 35px;
+  border-radius: 30px;
+  display: inline-block;
+ 
+}
+.title {
+    text-align: center;
+    margin: 10px 0 30px;
+    color: var(--white);
+    background-color: var(--gelo);
+    padding: 20px;
+}
