@@ -44,6 +44,7 @@
     padding: 10px;
 }
 
+
 body {
     background-color: var(--body);
 }
@@ -53,4 +54,65 @@ body {
     font-size: 25px;
     border-bottom: 5px solid var(--yellowhdr) ;
     padding-bottom: 25px;
+}
+
+.botoes {
+    display: flex;
+    border-bottom: 5px solid var(--yellowhdr);
+    padding-bottom: 25px;
+}
+.pages {
+    border-bottom: 4px solid var(--yellowhdr);
+    padding-bottom: 40px;
+    text-align: center;
+    font-size:25px;
+}
+
+.pages ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pages li {
+    padding: 10px;
+    width: 280px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages li#gelo {
+    background-color: var(--gelo);
+}
+
+.pages li#grama {
+    background-color: var(--grama);
+}
+
+.pages li#lutador {
+    background-color: var(--lutador);
+}
+
+.pages li#veneno {
+    background-color: var(--veneno);
+}
+
+.pages a {
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.bt12, .bt34 {
+    display: flex;
+    justify-self: space-around;
+    gap: 150px;
+}
+
+.equipe{
+    text-align: center;
+    font-size: 25px;
 }
