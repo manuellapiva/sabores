@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap&#39");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Inter", sans-serif;
+}
+
+/* header */
+header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffd63c;
+  gap: 100px;
+}
+
+.searchbar {
+  background-color: #a9caf0;
+  padding: 8px;
+  gap: 100px;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 10px;
+}
+
+header input {
+  border: none;
+  background-color: #a9caf0;
+  width: 656px;
+}
+
+.icons {
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+  margin-left: 40px;
+}
+
+header img {
+  width: 375px;
+  padding: 20px;
+}
+
+/* header */
