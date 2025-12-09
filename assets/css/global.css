@@ -212,3 +212,52 @@ footer a {
   display: inline-block;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+header {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.searchbar {
+  gap: 0px;
+  border-radius: 50px;
+  width: fit-content;
+  padding: 6px;
+}
+
+header input {
+  width: 456px;
+}
+
+.icons {
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+  margin-left: 0px;
+}
+
+header img {
+  width: 375px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+    padding: 60px;
+    width: auto;
+}
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+}
