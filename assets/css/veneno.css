@@ -42,6 +42,16 @@ body {
   margin-bottom: 40px;
 }
 
+.card {
+  width: 260px;
+  background: var(--cardveneno);
+  padding: 20px;
+  border-radius: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+
 
 
 
