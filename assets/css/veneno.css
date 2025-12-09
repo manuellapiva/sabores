@@ -97,12 +97,12 @@ body {
 
 header input {
   border: none;
-  background-color: #976ECA;
+  background-color: var(--cardveneno);
   width: 656px;
 }
 
 .searchbar {
-  background-color: #976ECA;
+  background-color: var(--cardveneno);
   padding: 8px;
   gap: 100px;
   border-radius: 50px;
