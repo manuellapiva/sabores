@@ -24,18 +24,11 @@
 }
 
 header input {
-  border: none;
   background-color: var(--searchclr);
-  width: 656px;
 }
 
 .searchbar {
   background-color: var(--searchclr);
-  padding: 8px;
-  gap: 100px;
-  border-radius: 50px;
-  width: fit-content;
-  padding: 10px;
 }
 
 body {

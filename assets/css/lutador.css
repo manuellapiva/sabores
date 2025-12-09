@@ -101,18 +101,11 @@ body {
 .flying{background-color: #e2dee8; color: var(--black);}
 
 header input {
-  border: none;
   background-color: var(--cardlutador);
-  width: 656px;
 }
 
 .searchbar {
   background-color: var(--cardlutador);
-  padding: 8px;
-  gap: 100px;
-  border-radius: 50px;
-  width: fit-content;
-  padding: 10px;
   color: white;
 }
 
