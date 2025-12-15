@@ -35,7 +35,7 @@ body {
   background-color: var(--blueline);
 }
 
-.types {
+.title {
   text-align: center;
   margin: 10px 0 30px;
   color: var(--white);
@@ -127,11 +127,3 @@ body {
 }
 
 /* botões */
-
-.title {
-  text-align: center;
-  margin: 10px 0 30px;
-  color: var(--white);
-  background-color: var(--gelo);
-  padding: 20px;
-}

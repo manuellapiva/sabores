@@ -34,7 +34,7 @@ header input {
   background-color: var(--cardgrama);
 }
 
-.types {
+.title {
   text-align: center;
   margin: 10px 0 30px;
   color: var(--white);
@@ -121,12 +121,4 @@ header input {
 .flying {
   background-color: #e2dee8;
   color: var(--black);
-}
-
-.title {
-  text-align: center;
-  margin: 10px 0 30px;
-  color: var(--white);
-  background-color: var(--grama);
-  padding: 20px;
 }
